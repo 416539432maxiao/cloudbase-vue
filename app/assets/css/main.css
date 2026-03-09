@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #2D3748;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: theme('colors.backend-color');
+  color: theme('colors.text.main');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Outfit', sans-serif;
+}
